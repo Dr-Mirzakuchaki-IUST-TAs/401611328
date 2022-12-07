@@ -1,4 +1,4 @@
-# 401611328-LTC2309 Setup
+# LTC2309 Setup
 
 Year: 2022  
 Course: VHDL  
