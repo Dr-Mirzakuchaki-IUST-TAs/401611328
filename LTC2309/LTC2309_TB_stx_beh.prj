@@ -1,0 +1,2 @@
+vhdl isim_temp "LTC2309.vhd"
+vhdl isim_temp "LTC2309_TB.vhd"

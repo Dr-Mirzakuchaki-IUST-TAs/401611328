@@ -1,0 +1,20 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "secureip" -o "F:/LTC2309/LTC2309_TB_isim_beh.exe" -prj "F:/LTC2309/LTC2309_TB_beh.prj" "work.LTC2309_TB" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "F:/LTC2309/LTC2309.vhd" into library work
+Parsing VHDL file "F:/LTC2309/LTC2309_TB.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling architecture behavioral of entity LTC2309 [ltc2309_default]
+Compiling architecture behavior of entity ltc2309_tb
+Time Resolution for simulation is 1ps.
+Compiled 7 VHDL Units
+Built simulation executable F:/LTC2309/LTC2309_TB_isim_beh.exe
+Fuse Memory Usage: 49776 KB
+Fuse CPU Usage: 639 ms

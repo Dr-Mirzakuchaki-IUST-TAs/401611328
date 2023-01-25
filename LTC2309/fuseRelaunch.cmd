@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "F:/LTC2309/LTC2309_TB_isim_beh.exe" -prj "F:/LTC2309/LTC2309_TB_beh.prj" "work.LTC2309_TB" 
