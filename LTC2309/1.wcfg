@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="F:/LTC2309/LTC2309_TB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="ltc2309_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="24" />
+   <wvobject fp_name="/ltc2309_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ltc2309_tb/ad0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ad0</obj_property>
+      <obj_property name="ObjectShortName">ad0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ltc2309_tb/ad1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ad1</obj_property>
+      <obj_property name="ObjectShortName">ad1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ltc2309_tb/rw" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rw</obj_property>
+      <obj_property name="ObjectShortName">rw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ltc2309_tb/uut/scl" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">scl</obj_property>
+      <obj_property name="ObjectShortName">scl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ltc2309_tb/sda" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sda</obj_property>
+      <obj_property name="ObjectShortName">sda</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ltc2309_tb/uut/scl_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">scl_clk</obj_property>
+      <obj_property name="ObjectShortName">scl_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ltc2309_tb/uut/sda_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sda_clk</obj_property>
+      <obj_property name="ObjectShortName">sda_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ltc2309_tb/uut/sda_clk_prv" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sda_clk_prv</obj_property>
+      <obj_property name="ObjectShortName">sda_clk_prv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ltc2309_tb/uut/address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">address[7:0]</obj_property>
+      <obj_property name="ObjectShortName">address[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ltc2309_tb/uut/enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ltc2309_tb/uut/data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data[11:0]</obj_property>
+      <obj_property name="ObjectShortName">data[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ltc2309_tb/uut/din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">din[5:0]</obj_property>
+      <obj_property name="ObjectShortName">din[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ltc2309_tb/uut/temp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">temp[3:0]</obj_property>
+      <obj_property name="ObjectShortName">temp[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ltc2309_tb/uut/buss" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">buss</obj_property>
+      <obj_property name="ObjectShortName">buss</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ltc2309_tb/uut/slv_ack" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">slv_ack</obj_property>
+      <obj_property name="ObjectShortName">slv_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ltc2309_tb/uut/data_ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">data_ready</obj_property>
+      <obj_property name="ObjectShortName">data_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ltc2309_tb/uut/once_slv_ack" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">once_slv_ack</obj_property>
+      <obj_property name="ObjectShortName">once_slv_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ltc2309_tb/uut/mas_ack" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mas_ack</obj_property>
+      <obj_property name="ObjectShortName">mas_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ltc2309_tb/uut/nibble_ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">nibble_ready</obj_property>
+      <obj_property name="ObjectShortName">nibble_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ltc2309_tb/uut/once_mas_ack" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">once_mas_ack</obj_property>
+      <obj_property name="ObjectShortName">once_mas_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ltc2309_tb/uut/mas_nack" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mas_nack</obj_property>
+      <obj_property name="ObjectShortName">mas_nack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ltc2309_tb/uut/stop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">stop</obj_property>
+      <obj_property name="ObjectShortName">stop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ltc2309_tb/uut/once_mas_nack" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">once_mas_nack</obj_property>
+      <obj_property name="ObjectShortName">once_mas_nack</obj_property>
+   </wvobject>
+</wave_config>
